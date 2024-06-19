@@ -1,14 +1,14 @@
-# แอปพลิเคชัน Group Chat
+g# Web Group Chat
 
-ยินดีต้อนรับสู่แอปพลิเคชัน Group Chat! แพลตฟอร์มนี้ช่วยให้ผู้ใช้สามารถสนทนาแบบกลุ่มได้แบบเรียลไทม์ ผู้ใช้สามารถกำหนดชื่อผู้ใช้งานและใส่ชื่อของห้องแชทที่ต้องการเข้าร่วมเพื่อพูดคุยในห้องนั้น แอปพลิเคชันนี้ใช้ไลบรารีและ API หลายตัวเพื่อเพิ่มประสบการณ์การใช้งานให้ดียิ่งขึ้น
+Web Group Chat! ผู้ใช้สามารถสนทนาแบบกลุ่มได้แบบเรียลไทม์ ผู้ใช้สามารถกำหนดชื่อผู้ใช้งานและใส่ชื่อของห้องแชทที่ต้องการเข้าร่วมเพื่อพูดคุยในห้องนั้น Website นี้ใช้ไลบรารีและ API หลายตัวเพื่อเพิ่มประสบการณ์การใช้งานให้ดียิ่งขึ้น
 
-## คุณสมบัติ
+## Feature
 
 - **การสื่อสารแบบเรียลไทม์:** ใช้ WebSocket (socket.io) ในการส่งข้อมูลแบบเรียลไทม์
 - **รองรับอีโมจิ:** ใช้ react-emoji สำหรับการส่งและแสดงผลอีโมจิในข้อความ
 - **เลื่อนหน้าเว็บอัตโนมัติ:** ใช้ react-scroll-to-bottom เพื่อทำให้หน้าจอเลื่อนไปที่ข้อความใหม่ล่าสุดเมื่อมีการเพิ่มข้อความ
 
-## เทคโนโลยีที่ใช้
+## Teach Stack
 
 ### ฝั่งหน้าเว็บ (Frontend)
 
@@ -27,21 +27,6 @@
 - **CORS:** มิดเดิลแวร์สำหรับการเปิดใช้งาน Cross-Origin Resource Sharing
 - **Socket.IO:** ไลบรารีที่ช่วยให้การสื่อสารแบบเรียลไทม์, แบบสองทาง และแบบ event-based
 
-## เริ่มต้นใช้งาน
-
-### สิ่งที่ต้องมี
-
-- Node.js
-- npm (Node Package Manager)
-
-### การติดตั้ง
-
-1. **โคลน repository:**
-   ```bash
-   git clone https://github.com/your-username/group-chat-app.git
-   cd group-chat-app
-
-
 **พัฒนาโดยใช้ภาษา**
 <br />
 [![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
@@ -50,17 +35,17 @@
 
 **Framework**
 <br />
-[![My Skills](https://skillicons.dev/icons?i=nextjs,tailwind)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=tailwind)](https://skillicons.dev)
 <br />
 <br />
 
 **Library**
 <br />
-[![My Skills](https://skillicons.dev/icons?i=react,threejs)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react)](https://skillicons.dev)
 <hr>
 
-*link to website* : https://3-d-shirt-v1.vercel.app/
+*link to website* : https://group-chat-web-v1.netlify.app/
 
 
 
-## Deploy on Vercel
+## Deploy on Netlify
